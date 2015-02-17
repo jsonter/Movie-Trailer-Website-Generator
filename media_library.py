@@ -46,8 +46,26 @@ fury = media.Movie("Fury",
 				   "PG-13",
 				   "http://youtu.be/-OGvZoIrXpg")
 
+the_matrix = media.Movie("The Matrix",
+				   "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+				   "https://image.tmdb.org/t/p/original/gynBNzwyaHKtXqlEKKLioNkjKgN.jpg",
+				   "M",
+				   "http://youtu.be/m8e-FF8MsqU")
+
+the_300 = media.Movie("300",
+				      "King Leonidas and a force of 300 men fight the Persians at Thermopylae in 480 B.C.",
+				      "https://image.tmdb.org/t/p/original/bYR8O1H1ZlME7Dm9ysfTYZnRDpw.jpg",
+				      "M",
+				      "http://youtu.be/UrIbxk7idYA")
+
+watchmen = media.Movie("Watchmen ",
+				      "In an alternate 1985 where former superheroes exist, the murder of a colleague sends active vigilante Rorschach into his own sprawling investigation, uncovering something that could completely change the course of history as we know it.",
+				      "https://image.tmdb.org/t/p/original/jXggcKzlyxj7yMBUIsqwiaaEtD5.jpg",
+				      "R",
+				      "http://youtu.be/PVjA0y78_EQ")
+
 # Store movies in an array to send to the fresh tomatoes script
-movies = [star_wars, lotr_tfotr, true_romance, top_gun, pulp_fiction, fury]
+movies = [star_wars, lotr_tfotr, true_romance, top_gun, pulp_fiction, fury, the_matrix, the_300, watchmen]
 
 # Send the array of movies to the fresh tomatoes web page builder.
 fresh_tomatoes.open_movies_page(movies)
