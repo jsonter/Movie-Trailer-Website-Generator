@@ -2,6 +2,13 @@ import media
 import fresh_tomatoes
 
 # Add data for each movie to be listed
+# 
+# movie_name = media.Movie("Title",
+#                          "Storyline",
+#                          "URL to poster image",
+#                          "Rating",
+#                          "URL to youtube.com movie trailer")
+
 
 star_wars = media.Movie("Star Wars - Episode IV A New Hope",
 						"Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the universe from the Empire's world-destroying battle-station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
